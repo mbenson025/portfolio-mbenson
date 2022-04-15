@@ -55,6 +55,8 @@ Collaborators: NA
 https://teamtreehouse.com/library/understanding-grid,
 https://flexboxfroggy.com/,
 https://www.youtube.com/watch?v=fYq5PXgSsbE&ab_channel=WebDevSimplified,
+position relative - https://stackoverflow.com/questions/48474/how-do-i-position-one-image-on-top-of-another-in-html#:~:text=As%20the%20simplest%20solution.,the%20relatives%20and%20absolutes%20correct.
+
 
 <br>
 skyline image -  https://www.bomachicago.org/illuminate-chicago-lighting-program/
@@ -62,6 +64,10 @@ codequiz image - https://media.proprofs.com/images/QM/user_images/2503852/New%20
 weather dashboard image - https://www.nytimes.com/2014/05/25/magazine/who-made-that-weather-icon.html
 password generator image - https://www.pcmag.com/how-to/how-to-use-a-random-password-generator
 note taker image - https://www.journalism.co.uk/tip-of-the-day/tip-become-an-expert-at-note-taking/s419/a740859/
+
+how to increase size on hover - https://www.w3schools.com/howto/howto_css_zoom_hover.asp
+
+email link - https://www.w3docs.com/snippets/html/how-to-create-mailto-links.html
 
 ## License
 NA
