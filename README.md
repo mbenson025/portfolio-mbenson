@@ -58,8 +58,7 @@ https://flexboxfroggy.com/,
 https://www.youtube.com/watch?v=fYq5PXgSsbE&ab_channel=WebDevSimplified,
 
 
-
-<br></br>
+<br>
 skyline image source -  https://www.bomachicago.org/illuminate-chicago-lighting-program/
 <br>
 codequiz image source - https://media.proprofs.com/images/QM/user_images/2503852/New%20Project%20(47)(214).jpg
