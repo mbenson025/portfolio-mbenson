@@ -17,14 +17,16 @@
     color:rgba(32, 31, 31, .6);
 }
 
+/* Header area begins */
 #headerstyle {
-    height: 80%;
+    height: 10px;
     width: 100%;
     background-color:darkcyan;
     background-position: center;
-    background-size: cover;
     position: relative;
 }
+
+
 
 header div h1 {
 font-size: 2em;
@@ -38,13 +40,8 @@ border-color: rgba(32, 31, 31, .9);
 margin: 15px;
 }
 
-/* header div h1:hover {
--ms-transform: scale(1.5);
--webkit-transform: scale(1.5);
-transform: scale(1.5);
-} */
-
-nav {
+/* Navigation links section(about me, my work, contact me) */
+.nav {
 display: flex;
 padding: 2% 12%;
 justify-content: space-between;
@@ -70,7 +67,11 @@ align-items:center
     transform: scale(1.1);
 }
 
+
+/* Banner with skyline pic */
 .banner {
+    display: flex;
+    flex-shrink:initial;
     position: relative;
     top: 0;
     left: 0;
@@ -87,20 +88,32 @@ align-items:center
     border-color: rgba(32, 31, 31, .7);
     background-color: rgba(32, 31, 31, .7) ;
 }
+/* after skyline banner */
 
-.profile {
-    position: absolute;
-    top: 30px;
-    left: 30px;
-    border: 5px solid rgba(32, 31, 31, .7);
-}
 
 body {
     background-color:rgb(184, 250, 236);
 }
 
+/* about me section with profile pic */
+#aboutme {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+    text-align: right;
+    align-content: flex-end;
+    height: 100%;
+    margin: 30px;
+}
+
+.profile {
+    height: 20%;
+    width: 20%;
+    border: 5px solid rgba(32, 31, 31, .7);
+}
 
 #aboutme h2 {
+    height: 40%;
     font-size: 1.6em;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     display: inline-flex;
@@ -108,17 +121,25 @@ body {
     color:azure ;
     padding: 10px;
     border: 5px solid;
-    border-color:  rgba(32, 31, 31, .9);
+    border-color:rgba(32, 31, 31, .9);
     margin: 15px;
-    margin-bottom: 50px;
+    margin-bottom: 30px;
 }
+
 
 #aboutme p {
-    font-family:'Times New Roman', Times, serif;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: larger;
+    font-weight: 700;
+    height: 100%;
+    width: 100%;
+    display:inline-block;
+    margin-bottom: 20px;
+    text-indent: 40%;
+    /* note to self-- text indent was line solution */
 }
 
-
+/* work section title--work section starts here */
 #work h2 {
     font-size: 1.6em;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -130,6 +151,7 @@ body {
     margin-top: 100px;
 }
 
+/* flex container for projects */
 .container {
     width: 100%;
     display: flex;
@@ -148,21 +170,23 @@ body {
     justify-content:space-between;
 }
 
+/* bigger image project here */
 .project-large {
     padding: 10px;
     border: 150px;
     border-color: rgba(32, 31, 31, .4);
-    margin-bottom: 100px;
+    height: 100px;
+    width: 600px;
 }
 
-.project-large img {
+.container img {
     margin-top: 10px;
     height: 600px;
     width: 800px;
     border: 10px solid rgba(32, 31, 31, .6)
 }
 
-.project-large h3 {
+.container h3 {
     font-size: 2em;
     font-family: Arial, Helvetica, sans-serif;
     /* display: inline-flex; */
@@ -174,6 +198,7 @@ body {
     margin: 15px;
 }
 
+/* smaller projects section starts here */
 .sm-card img {
     width: 400px;
     height: 250px;
@@ -183,24 +208,26 @@ body {
     background-color: rgba(32, 31, 31, .4);
 }
 
-.sm-card h3 {
+.sm-card h4 {
     font-size: 1.5em;
+
 }
 
+/* footer and contact section starts here */
 .footer {
     width: 100%;
     padding: 10px;
     border: 5px solid  rgba(32, 31, 31, .7) ;
 }
 
-#contactbox {
+#contactme {
     padding: 2% 12%;
     justify-content: center;
     background-color:darkcyan;
     border: 5px solid rgba(32, 31, 31, .9);
 }
 
-#contactbox h2 {
+#contactme h2 {
     font-size: 2em;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     display: inline-flex;
@@ -213,7 +240,7 @@ body {
 }
 
 /* change code later */
-.contactinner {
+.contact-inner-box {
     display: flex;
     justify-content:space-around;
     flex-grow: 5;
@@ -224,27 +251,18 @@ body {
     margin: 15px;
 }
 
-#phone {
+#phone, #email {
     font-size: 1.2rem;
     padding: 10px;
 }
 
-#email {
-    font-size: 1.2rem;
-    padding: 10px;
-}
 
-#github {
+#github, #linkedin {
     font-size: 1.2rem;
     padding: 10px;
     font-weight: 900;
 }
 
-#linkedin {
-    font-size: 1.2rem;
-    padding: 10px;
-    font-weight: 900;
-}
 
 
 
@@ -252,3 +270,41 @@ body {
 
 
 /*media queries*/
+
+@media screen and (min-width: 720px) {
+
+    .container {
+        display: flex;
+        max-width: 1200px;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+        flex-direction: column;
+        padding-top: 50px;
+    }
+
+    #headerstyle {
+    min-height: 450px;
+    }
+
+    .nav {
+    max-width: 1200px;
+    display: block;
+    margin-right: auto;
+    }
+
+    #aboutme p {
+    line-height: 1.6em;
+    }
+
+    .footer {
+    font-size: 1.3em;
+    max-width: 1200px;
+    margin: 40px auto;
+}
+
+@media screen and (max-width: 1058px) {
+    height: 150px; 
+    width: 120px;
+    }
+}
