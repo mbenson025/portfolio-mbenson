@@ -301,10 +301,5 @@ body {
     font-size: 1.3em;
     max-width: 1200px;
     margin: 40px auto;
-}
-
-@media screen and (max-width: 1058px) {
-    height: 150px; 
-    width: 120px;
     }
 }
