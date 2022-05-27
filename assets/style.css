@@ -210,6 +210,7 @@ body {
 
 .sm-card h4 {
     font-size: 1.5em;
+    margin-top: 30px;
 
 }
 
@@ -239,7 +240,6 @@ body {
     margin: 15px;
 }
 
-/* change code later */
 .contact-inner-box {
     display: flex;
     justify-content:space-around;
@@ -248,6 +248,7 @@ body {
     background-color: rgba(32, 31, 31, .7) ;
     color:azure ;
     padding: 10px;
+    height: 80px;
     margin: 15px;
 }
 
@@ -257,11 +258,18 @@ body {
 }
 
 
-#github, #linkedin {
-    font-size: 1.2rem;
+.github, .linkedin {
+    font-size: 2rem;
     padding: 10px;
     font-weight: 900;
 }
+
+.github:hover, .linkedin:hover {
+    font-size: 2.1rem ;
+}
+
+
+
 
 
 

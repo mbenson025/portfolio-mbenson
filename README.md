@@ -4,7 +4,7 @@
 
 # About
 
-A compilation of professional skills and work sample references from applications deployed on github
+A compilation of professional skills and work sample references from applications deployed on github. This portfolio is designed to showcase my developing skills as a programmer
 
 <br>
 
