@@ -1,5 +1,8 @@
 # <a href="https://mbenson025.github.io/portfolio-mason/">Link to Portfolio</a>
 
+![GitHub](https://img.shields.io/github/license/mbenson025/portfolio-mason)
+![GitHub top language](https://img.shields.io/github/languages/top/mbenson025/portfolio-mason)
+
 <br>
 
 # About
